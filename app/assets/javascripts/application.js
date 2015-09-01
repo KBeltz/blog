@@ -12,5 +12,23 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require js/foundation/foundation.js
+
+//= require js/foundation/foundation.abide.js
+//= require js/foundation/foundation.accordion.js
+//= require js/foundation/foundation.alert.js
+//= require js/foundation/foundation.clearing.js
+//= require js/foundation/foundation.dropdown.js
+//= require js/foundation/foundation.equalizer.js
+//= require js/foundation/foundation.interchange.js
+//= require js/foundation/foundation.joyride.js
+//= require js/foundation/foundation.magellan.js
+//= require js/foundation/foundation.offcanvas.js
+//= require js/foundation/foundation.orbit.js
+//= require js/foundation/foundation.reveal.js
+//= require js/foundation/foundation.slider.js
+//= require js/foundation/foundation.tab.js
+//= require js/foundation/foundation.tooltip.js
+//= require js/foundation/foundation.topbar.js
 //= require turbolinks
 //= require_tree .
