@@ -13,7 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require js/foundation/foundation.js
-
 //= require js/foundation/foundation.abide.js
 //= require js/foundation/foundation.accordion.js
 //= require js/foundation/foundation.alert.js
