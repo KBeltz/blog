@@ -4,4 +4,4 @@ Specs:
 
 * Rails 4.2.4
 
-* Foundation front end framework
+* Foundation 5.5.2
