@@ -4,35 +4,14 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Blog</title>
-  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <!-- <div class="sticky fixed">
-    <nav class="top-bar" data-topbar role="navigation" data-options="sticky_on: [medium,large]">
-
-      <section class="top-bar-section"> -->
-        <!-- Title Nav Section -->
-        <!-- <ul class="title-area">
-          <li class="name">
-            <h1><a class="scroll" href="#top"> Kikki B.</a></h1>
-          </li>
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-      </section>
-
-      <section class="top-bar-section"> -->
-        <!-- Right Nav Section -->
-        <!-- <ul class="right">
-          <li><a class="scroll" href="#about"><i class="fi-info"></i> About Me</a></li>
-          <li><a class="scroll" href="#blog"><i class="fi-pencil"></i> Blog</a></li>
-          <li><a class="scroll" href="#professional"><i class="fi-asterisk"></i> Professional</a></li>
-        </ul>
-      </section>
-    </nav>
-  </div> -->
 
 <%= yield %>
 
@@ -41,7 +20,6 @@
 <footer class="footer">
   <div class="row">
     <div class="small-12 columns">
-      <p class="slogan">Kikki Beltz</p>
       <h4 class="links">
         <a href="/"><i class="fi-home"></i></a>
         <a href="mailto:beltz08@me.com?Subject=You%20Are%20Rad"><i class="fi-mail"></i></a>
