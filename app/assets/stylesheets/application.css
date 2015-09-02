@@ -126,7 +126,7 @@
 }
 
 .hero {
- background: image-url("brick-unicorn.jpg") no-repeat center center;
+ background: url("brick-unicorn.jpg") no-repeat center center;
  background-size: cover;
  height: 100vh;
 }
@@ -162,7 +162,7 @@
  margin-bottom: 2rem;
 }
 .hero .tech-img {
- background: image-url("purple.jpg") no-repeat center center;
+ background: url("purple.jpg") no-repeat center center;
  background-size: cover;
  height: 9rem;
  width: 9rem;
@@ -197,7 +197,7 @@ input[data-toggle]:checked + label:active {
   margin: 0 -0.9rem; }
 
 .custom-background {
-  background: image-url("lego-unicorn.jpg") no-repeat center center;
+  background: url("lego-unicorn.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
