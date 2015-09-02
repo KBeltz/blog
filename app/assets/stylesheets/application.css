@@ -126,7 +126,7 @@
 }
 
 .hero {
- background: url("brick-unicorn.jpg") no-repeat center center;
+ background: image-url("brick-unicorn.jpg") no-repeat center center;
  background-size: cover;
  height: 100vh;
 }
