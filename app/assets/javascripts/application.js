@@ -31,3 +31,10 @@
 //= require js/foundation/foundation.topbar.js
 //= require turbolinks
 //= require_tree .
+
+$(function() {
+    $("[name=r-group]").click(function(){
+            $('.toHide').hide();
+            $("#blk-"+$(this).val()).show('slow');
+    });
+ });

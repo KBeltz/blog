@@ -1,27 +1,31 @@
 <p id="notice"><%= notice %></p>
-
+<br><br>
+<div class="text-center">
+  <h2>Coming Soon</h2>
+</div>
 <%= image_tag("unicorn-galaxy.gif") %>
+<br><br>
 <%= link_to "Image Credit", "http://amylovespenguins.deviantart.com/" %>
-<table>
+<!-- <table>
   <thead>
     <tr>
       <th>Date</th>
       <th>Title</th>
       <th>Content</th>
     </tr>
-  </thead>
+  </thead> -->
 
-  <tbody>
+  <!-- <tbody> -->
     <% @posts.each do |post| %>
       <tr>
-        <td><%= post.date %></td>
-        <td><%= link_to post.title, post %></td>
-        <td><%= post.content %></td>
+        <td><% post.date %></td>
+        <td><% link_to post.title, post %></td>
+        <td><% post.content %></td>
       </tr>
     <% end %>
-  </tbody>
+  <!-- </tbody>
 </table>
 
-<br>
+<br> -->
 
-<%= link_to 'New Post', new_post_path %>
+<% link_to 'New Post', new_post_path %>
