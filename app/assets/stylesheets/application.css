@@ -202,6 +202,10 @@ input[data-toggle]:checked + label:active {
   height: 100vh;
 }
 
+.custom-hidden {
+  color: #381732;
+}
+
  a:hover {
    cursor: pointer; }
 
