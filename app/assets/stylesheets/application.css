@@ -172,8 +172,8 @@
 }
 @media only screen and (min-width: 40.063em) {
  .hero .tech-img {
-   height: 18rem;
-   width: 18rem;
+   height: 15rem;
+   width: 15rem;
  }
  .hero h1 {
    padding-top: 4.5rem;
@@ -1287,10 +1287,10 @@ input[data-toggle]:checked + label:active {
    border-style: solid;
    border-width: 0;
    cursor: pointer;
-   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+   font-family: "Roboto", Helvetica, sans-serif;
    font-weight: normal;
    line-height: normal;
-   margin: 0 0 1.25rem;
+   margin: 1rem;
    position: relative;
    text-align: center;
    text-decoration: none;
