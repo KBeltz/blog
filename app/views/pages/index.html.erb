@@ -2,16 +2,18 @@
   <%= image_tag("brick-unicorn.jpg") %>
 </section>
 
-<section id="about">
+<section class="panel" id="about">
   <br>
   <br>
   <br>
   <br>
-  <br>
-  <h1>About</h1>
-  <br>
-  <br>
-  more <%= link_to "here", pages_about_path %>.
+  <h1>About Me</h1>
+  <p>
+    I am a web developer currently residing in Omaha, Nebraska. I am passionate about community, cycling, and science. I am a wife, a daughter, a sister, a mother. I am a collector of crafty hobbies. I am an <%= link_to "Omaha Code School", "http://www.omahacodeschool.com" %> graduate.
+  </p>
+  <p>
+    More about me <%= link_to "here", pages_about_path %>.
+  </p>
   <br>
   <br>
   <br>
@@ -19,7 +21,7 @@
   <br>
   <br>
 </section>
-<hr>
+
 <section id="blog">
   <br>
   <br>
@@ -38,12 +40,22 @@
   <br>
   <br>
 </section>
-<hr>
-<section id="contact">
+
+<section class="panel callout radius" id="resume">
   <br>
   <br>
   <br>
-  <h1>Contact</h1>
+  <h1>Professional</h1>
+  <br>
+  <br>
+  <br>
+  <p>
+    Professional Highlights and Skills
+  </p>
+  <p>
+    <%= link_to "Resume", pages_professional_path %>
+  </p>
+  <br>
   <br>
   <br>
 </section>
