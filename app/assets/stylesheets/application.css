@@ -6459,3 +6459,12 @@ input[data-toggle]:checked + label:active {
  @media not print {
    .show-for-print {
      display: none !important; } }
+
+
+a.custom-button {
+ background-color: #381732;
+}
+
+a.custom-button:hover {
+ background-color: #381732;
+}
