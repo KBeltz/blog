@@ -44,7 +44,7 @@ $(function() {
 var cornify_count = 0;
 var cornify_add = function() {
 	cornify_count += 1;
-	var cornify_url = 'http://www.cornify.com/';
+	var cornify_url = '//www.cornify.com/';
 	var div = document.createElement('div');
 	div.style.position = 'fixed';
 
@@ -126,7 +126,7 @@ var cornify_add = function() {
 			css.id = '__cornify_css';
 			css.type = 'text/css';
 			css.rel = 'stylesheet';
-			css.href = 'http://www.cornify.com/css/cornify.css';
+			css.href = '//www.cornify.com/css/cornify.css';
 			css.media = 'screen';
 			head.appendChild(css);
 		}
