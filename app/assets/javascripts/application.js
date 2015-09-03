@@ -42,6 +42,7 @@ $(function() {
 // cornify
 
 var cornify_count = 0;
+
 var cornify_add = function() {
 	cornify_count += 1;
 	var cornify_url = '//www.cornify.com/';
@@ -86,21 +87,21 @@ var cornify_add = function() {
 	if( cornify_count==15 ) submitTime = 0;
 	img.setAttribute('src',cornify_url+'getacorn.php?r=' + submitTime + '&url='+document.location.href);
 	var ease = "all .1s linear";
-	//div.style['-webkit-transition'] = ease;
-	//div.style.webkitTransition = ease;
+	div.style['-webkit-transition'] = ease;
+	div.style.webkitTransition = ease;
 	div.style.WebkitTransition = ease;
 	div.style.WebkitTransform = "rotate(1deg) scale(1.01,1.01)";
-	//div.style.MozTransition = "all .1s linear";
+	div.style.MozTransition = "all .1s linear";
 	div.style.transition = "all .1s linear";
 	div.onmouseover = function() {
 		var size = 1+Math.round(Math.random()*10)/100;
 		var angle = Math.round(Math.random()*20-10);
 		var result = "rotate("+angle+"deg) scale("+size+","+size+")";
 		this.style.transform = result;
-		//this.style['-webkit-transform'] = result;
-		//this.style.webkitTransform = result;
+		this.style['-webkit-transform'] = result;
+		this.style.webkitTransform = result;
 		this.style.WebkitTransform = result;
-		//this.style.MozTransform = result;
+		this.style.MozTransform = result;
 		//alert(this + ' | ' + result);
 	};
 	div.onmouseout = function() {
@@ -108,10 +109,10 @@ var cornify_add = function() {
 		var angle = Math.round(Math.random()*6-3);
 		var result = "rotate("+angle+"deg) scale("+size+","+size+")";
 		this.style.transform = result;
-		//this.style['-webkit-transform'] = result;
-		//this.style.webkitTransform = result;
+		this.style['-webkit-transform'] = result;
+		this.style.webkitTransform = result;
 		this.style.WebkitTransform = result;
-		//this.style.MozTransform = result;
+		this.style.MozTransform = result;
 	};
 	var body = document.getElementsByTagName('body')[0];
 	body.appendChild(div);
