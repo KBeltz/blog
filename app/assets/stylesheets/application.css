@@ -228,7 +228,7 @@ input[data-toggle]:checked + label:active {
 .custom-background {
   background: url("lego-unicorn.jpg") no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  height: 100%;
 }
 
 .custom-hidden {
