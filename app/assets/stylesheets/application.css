@@ -6273,7 +6273,6 @@ a.custom-button:hover {
 
 .no-bullet {
   list-style: none;
-  list-style-type: none;
   margin-left: auto;
   margin-right: auto;
 }
