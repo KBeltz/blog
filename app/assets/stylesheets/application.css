@@ -6270,3 +6270,15 @@ a.custom-button {
 a.custom-button:hover {
  background-color: #381732;
 }
+
+.no-bullet {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.half-size {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
