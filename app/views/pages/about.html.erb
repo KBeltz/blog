@@ -1,12 +1,18 @@
-<!-- <p class="button" onclick="toggle_visibility('hideMe')">Show/hide</p>
-<div id="hideMe">I want to hide this by pressing the button above</div> -->
-
-<div class="row">
-  <div class="small-12 medium-9 large-6 columns">
-    <p class="button" onclick="toggle_visibility('professional')">
-      Professional
-    </p>
-      <div id="professional">
+<div class="custom-background">
+  <br><br>
+  <div class="row">
+    <div class="small-12 medium-9 large-6 columns">
+      <p class="gradient-button" onclick="showMe('professional'); hideMe('personal')">
+        Professional
+      </p>
+    </div>
+    <div class="small-12 medium-9 large-6 columns">
+      <p class="gradient-button" onclick="showMe('personal'); hideMe('professional')">
+        Personal
+      </p>
+    </div>
+    <div>
+      <div id="professional" style="display: block;">
         <br>
         <h4>Professional</h4>
         <p>
@@ -19,12 +25,9 @@
           In 2008 I moved to Georgia, where I completed my college education. In 2012 I graduated from North Georgia College and State University (now the University of North Georgia) with a Bachelor's of Science in Physics. From 2011-2012 I worked as a Physics II lab assistant and tutor at the school. I set up and monitored Physics II labs, assisted students with the collection and analysis of lab data, tutored students, and graded lab reports.
         </p>
       </div>
-  </div>
-  <div class="small-12 medium-9 large-6 columns">
-    <p class="button" onclick="toggle_visibility('personal')">
-      Personal
-    </p>
-      <div id="personal">
+    </div>
+    <div>
+      <div id="personal" style="display: none;">
         <br>
         <h4>Personal</h4>
         <p>
@@ -37,9 +40,6 @@
           I am currently a purple belt in tae kwon do. I have been training for one year, and I plan to earn my black belt one day.
         </p>
       </div>
+    </div>
   </div>
 </div>
-
-<!-- <div class="custom-background">
-  <br>
-</div> -->
